@@ -37,7 +37,7 @@ command = function(cmd) {
   });
 };
 
-module.exports.gitInfo = function() {
+module.exports = function() {
   return promiseMap({
     commitId: command('git rev-parse HEAD'),
     shortCommitId: command('git rev-parse --short HEAD'),

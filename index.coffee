@@ -20,7 +20,7 @@ command = (cmd) ->
 			return reject err if err
 			resolve stdout.split('\n').join ''
 
-module.exports.gitInfo = ->
+module.exports = ->
 	promiseMap
 		commitId: command 'git rev-parse HEAD'
 		shortCommitId: command 'git rev-parse --short HEAD'
