@@ -1,0 +1,16 @@
+{
+  "name": "git-info",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.com/yocondo/git-info.git"
+  },
+  "dependencies": {
+    "es6-promise": "~1.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
