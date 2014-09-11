@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://bitbucket.com/yocondo/git-info.git"
+    "url": "git://github.com/yocondo/git-info.git"
   },
   "dependencies": {
     "es6-promise": "~1.0.0"
